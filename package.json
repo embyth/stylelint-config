@@ -2,7 +2,7 @@
   "name": "@embyth/stylelint-config",
   "version": "0.0.1",
   "description": "The package offer Vanilla and SCSS configurations for Stylelint",
-  "homepage": "https://github.com/embyth/stylelint-config/blob/master/packages/stylelint#readme",
+  "homepage": "https://github.com/embyth/stylelint-config#readme",
   "private": false,
   "bugs": {
     "url": "https://github.com/embyth/stylelint-config/issues"
@@ -11,7 +11,7 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "properties-order.js"
+    "scss.js"
   ],
   "main": "index.js",
   "repository": {
