@@ -1,0 +1,28 @@
+{
+  "css.validate": false,
+  "scss.validate": false,
+  "npm.packageManager": "pnpm",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "search.exclude": {
+    "pnpm-lock.yaml": true,
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/node_modules": false
+  },
+  "prettier.enable": false,
+  "eslint.format.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[css][scss][sass]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  }
+}

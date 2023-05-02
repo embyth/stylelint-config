@@ -1,0 +1,51 @@
+{
+  "name": "@embyth/stylelint-config",
+  "version": "0.0.1",
+  "description": "The package offer Vanilla and SCSS configurations for Stylelint",
+  "homepage": "https://github.com/embyth/stylelint-config/blob/master/packages/stylelint#readme",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/embyth/stylelint-config/issues"
+  },
+  "author": "Rostyslav Miniukov <miniukovrostyslav@gmail.com> (https://github.com/embyth)",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "properties-order.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/embyth/stylelint-config.git"
+  },
+  "scripts": {
+    "clean:cache": "rimraf dist",
+    "clean:deps": "rimraf node_modules",
+    "clean": "pnpm run clean:cache && pnpm run clean:deps",
+    "lint:css": "pnpm exec stylelint \"test/css/**/*.css\" --config .stylelintrc",
+    "lint:scss": "pnpm exec stylelint \"test/scss/**/*.scss\" --config .stylelintrc.scss.json",
+    "lint": "pnpm run lint:css && pnpm run lint:scss"
+  },
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "15.6.0"
+  },
+  "dependencies": {
+    "postcss": "8.4.23",
+    "postcss-scss": "4.0.6",
+    "stylelint-config-recommended": "12.0.0",
+    "stylelint-config-recommended-scss": "11.0.0",
+    "stylelint-order": "6.0.3",
+    "stylelint-scss": "4.6.0",
+    "stylelint-selector-bem-pattern": "2.1.1",
+    "stylelint-stylistic": "0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.39.0",
+    "rimraf": "4.4.1",
+    "stylelint": "15.6.0"
+  }
+}
