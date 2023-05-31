@@ -48,7 +48,7 @@
     "build": "pnpm run clean:cache && unbuild"
   },
   "peerDependencies": {
-    "stylelint": "15.6.0"
+    "stylelint": "15.6.2"
   },
   "dependencies": {
     "postcss": "8.4.24",
