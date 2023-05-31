@@ -1,13 +1,13 @@
-"use strict";
+import { defineRules } from '../helpers/utilities';
 
-module.exports = {
+export const scssRules = defineRules({
   /**
    * Resetting general rules for SCSS.
    */
-  "declaration-property-value-no-unknown": null,
+  'declaration-property-value-no-unknown': null,
   /**
    * Disallow leading underscore in partial names in @import.
    * @link https://github.com/stylelint-scss/stylelint-scss/blob/master/src/rules/at-import-no-partial-leading-underscore/README.md
    */
-  "scss/at-import-no-partial-leading-underscore": null
-};
+  'scss/at-import-no-partial-leading-underscore': null,
+});
