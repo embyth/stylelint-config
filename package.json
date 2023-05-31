@@ -1,22 +1,42 @@
 {
   "name": "@embyth/stylelint-config",
   "version": "0.0.1",
-  "description": "The package offer Vanilla and SCSS configurations for Stylelint",
-  "homepage": "https://github.com/embyth/stylelint-config#readme",
-  "private": false,
-  "bugs": {
-    "url": "https://github.com/embyth/stylelint-config/issues"
+  "publishConfig": {
+    "access": "public"
   },
+  "description": "The package offer Vanilla and SCSS configurations for Stylelint",
   "author": "Rostyslav Miniukov <miniukovrostyslav@gmail.com> (https://github.com/embyth)",
   "license": "MIT",
-  "files": [
-    "index.js",
-    "scss.js"
-  ],
-  "main": "index.js",
+  "homepage": "https://github.com/embyth/stylelint-config#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/embyth/stylelint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/embyth/stylelint-config/issues"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./scss": {
+      "types": "./dist/scss.d.ts",
+      "require": "./dist/scss.cjs",
+      "import": "./dist/scss.mjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "*.d.ts"
+  ],
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.1.0"
   },
   "scripts": {
     "clean:cache": "rimraf dist",
@@ -24,28 +44,34 @@
     "clean": "pnpm run clean:cache && pnpm run clean:deps",
     "lint:css": "pnpm exec stylelint \"test/css/**/*.css\" --config .stylelintrc",
     "lint:scss": "pnpm exec stylelint \"test/scss/**/*.scss\" --config .stylelintrc.scss.json",
-    "lint": "pnpm run lint:css && pnpm run lint:scss"
-  },
-  "engines": {
-    "node": ">=18.15.0",
-    "pnpm": ">=8.1.0"
+    "lint": "pnpm run lint:css && pnpm run lint:scss",
+    "build": "pnpm run clean:cache && unbuild"
   },
   "peerDependencies": {
     "stylelint": "15.6.0"
   },
   "dependencies": {
-    "postcss": "8.4.23",
+    "postcss": "8.4.24",
     "postcss-scss": "4.0.6",
     "stylelint-config-recommended": "12.0.0",
-    "stylelint-config-recommended-scss": "11.0.0",
+    "stylelint-config-recommended-scss": "12.0.0",
     "stylelint-order": "6.0.3",
-    "stylelint-scss": "4.6.0",
+    "stylelint-scss": "5.0.0",
     "stylelint-selector-bem-pattern": "2.1.1",
-    "stylelint-stylistic": "0.4.0"
+    "stylelint-stylistic": "0.4.2"
   },
   "devDependencies": {
-    "eslint": "8.39.0",
-    "rimraf": "4.4.1",
-    "stylelint": "15.6.0"
+    "@commitlint/cli": "17.6.5",
+    "@commitlint/config-conventional": "17.6.5",
+    "@embyth/eslint-plugin": "0.1.6",
+    "@embyth/stylelint-config": "link:",
+    "@types/node": "20.2.5",
+    "devmoji": "2.3.0",
+    "eslint": "8.41.0",
+    "husky": "8.0.3",
+    "rimraf": "5.0.1",
+    "stylelint": "15.6.2",
+    "typescript": "5.0.4",
+    "unbuild": "1.2.1"
   }
 }
