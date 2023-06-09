@@ -21,8 +21,8 @@ dependencies:
     specifier: 6.0.3
     version: 6.0.3(stylelint@15.7.0)
   stylelint-scss:
-    specifier: 5.0.0
-    version: 5.0.0(stylelint@15.7.0)
+    specifier: 5.0.1
+    version: 5.0.1(stylelint@15.7.0)
   stylelint-selector-bem-pattern:
     specifier: 2.1.1
     version: 2.1.1
@@ -4379,7 +4379,7 @@ packages:
       postcss-scss: 4.0.6(postcss@8.4.24)
       stylelint: 15.7.0
       stylelint-config-recommended: 12.0.0(stylelint@15.7.0)
-      stylelint-scss: 5.0.0(stylelint@15.7.0)
+      stylelint-scss: 5.0.1(stylelint@15.7.0)
     dev: false
 
   /stylelint-config-recommended@12.0.0(stylelint@15.7.0):
@@ -4400,8 +4400,8 @@ packages:
       stylelint: 15.7.0
     dev: false
 
-  /stylelint-scss@5.0.0(stylelint@15.7.0):
-    resolution: {integrity: sha512-5Ee5kG3JIcP2jk2PMoFMiNmW/815V+wK5o37X5ke90ihWMpPXI9iyqeA6zEWipWSRXeQc0kqbd7hKqiR+wPKNA==}
+  /stylelint-scss@5.0.1(stylelint@15.7.0):
+    resolution: {integrity: sha512-n87iCRZrr2J7//I/QFsDXxFLnHKw633U4qvWZ+mOW6KDAp/HLj06H+6+f9zOuTYy+MdGdTuCSDROCpQIhw5fvQ==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
     dependencies:
