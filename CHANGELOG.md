@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.1.0...stylelint-config-v0.1.1) (2023-06-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-scss to v5.0.1 ([fa45679](https://github.com/embyth/stylelint-config/commit/fa45679b709f49fa3897402f0dfa40929c32f488))
+
 ## [0.1.0](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.0.1...stylelint-config-v0.1.0) (2023-05-31)
 
 
