@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.1.1...stylelint-config-v0.1.2) (2023-07-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-selector-bem-pattern to v3 ([020af0d](https://github.com/embyth/stylelint-config/commit/020af0dedc6db2287442885d5fd6cce15be36612))
+* **deps:** update dependency stylelint-stylistic to v0.4.3 ([4ca96ab](https://github.com/embyth/stylelint-config/commit/4ca96aba8210589da2603ee43138be4635ebeac8))
+
 ## [0.1.1](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.1.0...stylelint-config-v0.1.1) (2023-06-09)
 
 
