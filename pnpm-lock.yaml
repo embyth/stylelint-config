@@ -27,8 +27,8 @@ dependencies:
     specifier: 3.0.0
     version: 3.0.0(eslint@8.44.0)(typescript@5.1.6)
   stylelint-stylistic:
-    specifier: 0.4.2
-    version: 0.4.2(stylelint@15.10.1)
+    specifier: 0.4.3
+    version: 0.4.3(stylelint@15.10.1)
 
 devDependencies:
   '@commitlint/cli':
@@ -4433,11 +4433,12 @@ packages:
       - typescript
     dev: false
 
-  /stylelint-stylistic@0.4.2(stylelint@15.10.1):
-    resolution: {integrity: sha512-WF/fLvotTklG8LZ+fO0nxhu5swVENHhSat2l5ckrmtXpij1P9ybYa56XivOg/E02CH+Ygui5pd2hQrlli3NCDQ==}
+  /stylelint-stylistic@0.4.3(stylelint@15.10.1):
+    resolution: {integrity: sha512-WphmneK3MRrm5ixvRPWy7+c9+EQUh0FPvNMXW/N9VD85vyqtpxUejpD+mxubVVht0fRgidcqBxtW3s3tU2Ujhw==}
     peerDependencies:
       stylelint: ^15.0.0
     dependencies:
+      is-plain-object: 5.0.0
       postcss: 8.4.24
       postcss-media-query-parser: 0.2.3
       postcss-value-parser: 4.2.0

@@ -58,7 +58,7 @@
     "stylelint-order": "6.0.3",
     "stylelint-scss": "5.0.1",
     "stylelint-selector-bem-pattern": "3.0.0",
-    "stylelint-stylistic": "0.4.2"
+    "stylelint-stylistic": "0.4.3"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
