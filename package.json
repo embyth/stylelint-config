@@ -61,8 +61,8 @@
     "stylelint-stylistic": "0.4.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.6.6",
-    "@commitlint/config-conventional": "17.6.6",
+    "@commitlint/cli": "17.6.7",
+    "@commitlint/config-conventional": "17.6.7",
     "@embyth/eslint-plugin": "0.1.9",
     "@embyth/stylelint-config": "link:",
     "@types/node": "20.4.2",
