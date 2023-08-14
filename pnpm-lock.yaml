@@ -24,8 +24,8 @@ dependencies:
     specifier: 5.1.0
     version: 5.1.0(stylelint@15.10.2)
   stylelint-selector-bem-pattern:
-    specifier: 3.0.0
-    version: 3.0.0(eslint@8.46.0)(typescript@5.1.6)
+    specifier: 3.0.1
+    version: 3.0.1(eslint@8.46.0)(typescript@5.1.6)
   stylelint-stylistic:
     specifier: 0.4.3
     version: 0.4.3(stylelint@15.10.2)
@@ -1145,7 +1145,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.60.1(typescript@5.1.6)
       eslint: 8.46.0
       eslint-scope: 5.1.1
-      semver: 7.5.3
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3815,8 +3815,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /postcss-bem-linter@4.0.0(postcss@8.4.27):
-    resolution: {integrity: sha512-L70u6dY5FKcGw9UAV+cpKuhQ3WH77NQRxkkkhXTBaDAdWMMKUpUGDkcJJh+f6TreGq5cwobaHm0LlGFsnHwfxw==}
+  /postcss-bem-linter@4.0.1(postcss@8.4.27):
+    resolution: {integrity: sha512-jTG3uMo6n2YyxLBPLsRN+5R9djNJZ3mirAugvnYbZaZOwPmLb/MaQ2uql0fSdVYegjZBmX8tW5B0mfZigiXZ9Q==}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
@@ -4180,7 +4180,6 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
-    dev: true
 
   /shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
@@ -4415,13 +4414,13 @@ packages:
       stylelint: 15.10.2
     dev: false
 
-  /stylelint-selector-bem-pattern@3.0.0(eslint@8.46.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-78VZfelcR9aDj0XjAdRTuV5+AeStoaiW89Q9lUu2hakzqs2itP5OENPs8GPY5MPmnckS21+Mz0TiB/tEfLWP3A==}
+  /stylelint-selector-bem-pattern@3.0.1(eslint@8.46.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-eh0tyyVyS62IOVzyi5oN0BKLJTHnolMWIqzpe0n3Wk26HxZegp/PiVKSUpK7vzVIAdAROemhypfMaH/xZorZrg==}
     dependencies:
       eslint-plugin-jest: 27.2.2(@typescript-eslint/eslint-plugin@5.60.1)(eslint@8.46.0)(typescript@5.1.6)
       lodash: 4.17.21
       postcss: 8.4.27
-      postcss-bem-linter: 4.0.0(postcss@8.4.27)
+      postcss-bem-linter: 4.0.1(postcss@8.4.27)
       stylelint: 15.10.2
     transitivePeerDependencies:
       - '@typescript-eslint/eslint-plugin'
