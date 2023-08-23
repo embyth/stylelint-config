@@ -44,8 +44,8 @@ devDependencies:
     specifier: 'link:'
     version: 'link:'
   '@types/node':
-    specifier: 20.5.2
-    version: 20.5.2
+    specifier: 20.5.4
+    version: 20.5.4
   devmoji:
     specifier: 2.3.0
     version: 2.3.0
@@ -398,7 +398,7 @@ packages:
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@20.5.2)(typescript@5.1.6)
+      ts-node: 10.9.1(@types/node@20.5.4)(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - '@swc/core'
@@ -1229,8 +1229,8 @@ packages:
     resolution: {integrity: sha512-bUBrPjEry2QUTsnuEjzjbS7voGWCc30W0qzgMf90GPeDGFRakvrz47ju+oqDAKCXLUCe39u57/ORMl/O/04/9g==}
     dev: true
 
-  /@types/node@20.5.2:
-    resolution: {integrity: sha512-5j/lXt7unfPOUlrKC34HIaedONleyLtwkKggiD/0uuMfT8gg2EOpg0dz4lCD15Ga7muC+1WzJZAjIB9simWd6Q==}
+  /@types/node@20.5.4:
+    resolution: {integrity: sha512-Y9vbIAoM31djQZrPYjpTLo0XlaSwOIsrlfE3LpulZeRblttsLQRFRlBAppW0LOxyT3ALj2M5vU1ucQQayQH3jA==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -1790,7 +1790,7 @@ packages:
     dependencies:
       '@types/node': 20.4.7
       cosmiconfig: 8.2.0
-      ts-node: 10.9.1(@types/node@20.5.2)(typescript@5.1.6)
+      ts-node: 10.9.1(@types/node@20.5.4)(typescript@5.1.6)
       typescript: 5.1.6
     dev: true
 
@@ -4843,7 +4843,7 @@ packages:
     resolution: {integrity: sha512-yUeWbFBDiwPodNqrqpvQpGWheL6PvNu2/pVAb9yy2vzdkkflCgwVA4U2akByPCXzYTum3/5/nB92yKuiLpSo/Q==}
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.5.2)(typescript@5.1.6):
+  /ts-node@10.9.1(@types/node@20.5.4)(typescript@5.1.6):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -4862,7 +4862,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.5.2
+      '@types/node': 20.5.4
       acorn: 8.9.0
       acorn-walk: 8.2.0
       arg: 4.1.3
