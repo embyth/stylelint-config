@@ -185,6 +185,11 @@ export const generalRules = defineRules({
    */
   'color-no-hex': null,
   /**
+   * Specify modern or legacy notation for color-functions.
+   * @link https://stylelint.io/user-guide/rules/color-function-notation/
+   */
+  'color-function-notation': ['modern', { ignore: ['with-var-inside'] }],
+  /**
    * Disallow units for zero lengths.
    * @link https://stylelint.io/user-guide/rules/length-zero-no-unit/
    */
@@ -345,6 +350,7 @@ export const generalRules = defineRules({
     {
       except: ['first-nested', 'blockless-after-blockless'],
       ignore: ['after-comment'],
+      ignoreAtRules: ['else'],
     },
   ],
 });
