@@ -1,16 +1,16 @@
-@forward "something";
-@use "base";
-@use "sass:list";
-@use "sass:map";
-@use "sass:math";
-@use "sass:meta";
-@use "sass:string";
-@import "something-else";
+@forward 'something';
+@use 'base';
+@use 'sass:list';
+@use 'sass:map';
+@use 'sass:math';
+@use 'sass:meta';
+@use 'sass:string';
+@import 'something-else';
 
 // Multi-line double-slash comment
 // comment
 
-$postfix: if($infix != "", $infix + "-down", "");
+$postfix: if($infix != '', $infix + '-down', '');
 
 @function remove-where($list, $condition) {
   $new-list: ();
@@ -28,7 +28,7 @@ $postfix: if($infix != "", $infix + "-down", "");
 @mixin corner-icon($name, $top-or-bottom, $left-or-right) {
   .icon-#{$name} {
     position: absolute;
-    background-image: url("/icons/#{$name}.svg");
+    background-image: url('/icons/#{$name}.svg');
     #{$top-or-bottom}: 0;
     #{$left-or-right}: 0;
   }
@@ -37,21 +37,13 @@ $postfix: if($infix != "", $infix + "-down", "");
 @mixin triangle($size, $color, $direction) {
   @if $direction == up {
     border-bottom-color: $color;
-  }
-
-  @else if $direction == right {
+  } @else if $direction == right {
     border-left-color: $color;
-  }
-
-  @else if $direction == down {
+  } @else if $direction == down {
     border-top-color: $color;
-  }
-
-  @else if $direction == left {
+  } @else if $direction == left {
     border-right-color: $color;
-  }
-
-  @else {
+  } @else {
     @error "Unknown direction #{$direction}.";
   }
   border-color: transparent;
@@ -71,10 +63,10 @@ $postfix: if($infix != "", $infix + "-down", "");
 
 $default-color: #000000 !default;
 $local-color: #333333;
-$fonts: "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
+$fonts: 'Tahoma', 'Helvetica Neue', 'Helvetica', sans-serif;
 $theme-colors: (
-  "success": #28a745,
-  "warning": #ffc107,
+  'success': #28a745,
+  'warning': #ffc107,
 );
 $global-variable: first global value;
 
@@ -84,7 +76,7 @@ $global-variable: first global value;
 }
 
 .selector-1,
-.selector-3[type="text"] {
+.selector-3[type='text'] {
   top: calc(100% - 2rem);
   color: base.$primary-color;
   background: linear-gradient(#ffffff, rgb(0 0 0 / 80%));
@@ -120,7 +112,7 @@ $global-variable: first global value;
 @media (min-width >= 60em) {
   .selector {
     // Flush to parent comment
-    @include corner-icon("mail", top, left);
+    @include corner-icon('mail', top, left);
 
     transform: translate(1, 1) scale(3);
   }
@@ -135,34 +127,27 @@ $global-variable: first global value;
 
     .selector-j {
       @function contains-helvetica($string) {
-        @return string.index($string, "Helvetica");
+        @return string.index($string, 'Helvetica');
       }
 
-      font-family: remove-where($fonts, meta.get-function("contains-helvetica"));
+      font-family: remove-where($fonts, meta.get-function('contains-helvetica'));
     }
   }
 }
 
 // Multi-line double-slash comment
 // comment
-@media screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .selector {
     height: 10rem;
-    background-image:
-      repeating-linear-gradient(
-        -45deg,
-        transparent,
-        #ffffff 25px,
-        rgb(255 255 255 / 100%) 50px
-      );
+    background-image: repeating-linear-gradient(-45deg, transparent, #ffffff 25px, rgb(255 255 255 / 100%) 50px);
   }
 
   /* Flush nested single line comment */
   .selector::after {
-    background-color: map.get($theme-colors, "warning");
-    background-image: url("x.svg");
-    content: "→";
+    background-color: map.get($theme-colors, 'warning');
+    background-image: url('x.svg');
+    content: '→';
   }
 }
 

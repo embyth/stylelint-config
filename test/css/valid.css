@@ -1,10 +1,10 @@
-@import url("x.css");
+@import url('x.css');
 
 .selector-1,
 .selector-2,
-.selector-3[type="text"] {
+.selector-3[type='text'] {
   display: block;
   box-sizing: border-box;
   color: #333333;
-  background: linear-gradient(#ffffff, rgba(0, 0, 0, 0.8));
+  background: linear-gradient(#ffffff, rgb(0 0 0 / 0.8));
 }
