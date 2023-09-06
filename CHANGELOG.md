@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.2.0...stylelint-config-v0.3.0) (2023-09-06)
+
+
+### Features
+
+* **config:** ✨ ⚙️ added new plugins to core config ([200d1ff](https://github.com/embyth/stylelint-config/commit/200d1ff502d747d98409990358a95b6380f39529))
+
 ## [0.2.0](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.1.1...stylelint-config-v0.2.0) (2023-09-06)
 
 
