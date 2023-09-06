@@ -1,1 +1,14 @@
-/*
+# Build artifacts
+.next/
+.turbo/
+_next/
+__tmp__/
+dist/
+node_modules/
+target/
+compiled/
+.yarn
+temp/
+LICENSE
+pnpm-lock.yaml
+pnpm-workspace.yaml
