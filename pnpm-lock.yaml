@@ -20,6 +20,12 @@ dependencies:
   stylelint-config-recommended-scss:
     specifier: 13.0.0
     version: 13.0.0(postcss@8.4.29)(stylelint@15.10.3)
+  stylelint-declaration-block-no-ignored-properties:
+    specifier: 2.7.0
+    version: 2.7.0(stylelint@15.10.3)
+  stylelint-high-performance-animation:
+    specifier: 1.9.0
+    version: 1.9.0(stylelint@15.10.3)
   stylelint-order:
     specifier: 6.0.3
     version: 6.0.3(stylelint@15.10.3)
@@ -32,6 +38,9 @@ dependencies:
   stylelint-selector-bem-pattern:
     specifier: 3.0.1
     version: 3.0.1(eslint@8.48.0)(typescript@5.2.2)
+  stylelint-selector-no-empty:
+    specifier: 1.0.9
+    version: 1.0.9(stylelint@15.10.3)
 
 devDependencies:
   '@commitlint/cli':
@@ -4742,6 +4751,24 @@ packages:
       stylelint: 15.10.3
     dev: false
 
+  /stylelint-declaration-block-no-ignored-properties@2.7.0(stylelint@15.10.3):
+    resolution: {integrity: sha512-44SpI9+9Oc1ICuwwRfwS/3npQ2jPobDSTnwWdNgZGryGqQCp17CgEIWjCv1BgUOSzND3RqywNCNLKvO1AOxbfg==}
+    engines: {node: '>=6'}
+    peerDependencies:
+      stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
+    dependencies:
+      stylelint: 15.10.3
+    dev: false
+
+  /stylelint-high-performance-animation@1.9.0(stylelint@15.10.3):
+    resolution: {integrity: sha512-tUN8YqIRFRCsMLLI1wnyODP6+H5Lc63NEaUcOt1lqNaEEgd0tGgA4miY2JuL8eSHvgmGkmZPZTn1Dgek05O3uQ==}
+    peerDependencies:
+      stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
+    dependencies:
+      postcss-value-parser: 4.2.0
+      stylelint: 15.10.3
+    dev: false
+
   /stylelint-order@6.0.3(stylelint@15.10.3):
     resolution: {integrity: sha512-1j1lOb4EU/6w49qZeT2SQVJXm0Ht+Qnq9GMfUa3pMwoyojIWfuA+JUDmoR97Bht1RLn4ei0xtLGy87M7d29B1w==}
     peerDependencies:
@@ -4790,6 +4817,14 @@ packages:
       - jest
       - supports-color
       - typescript
+    dev: false
+
+  /stylelint-selector-no-empty@1.0.9(stylelint@15.10.3):
+    resolution: {integrity: sha512-MmtOZNOj0dr/PFBxiSBZHtKq+rCTtdkU54E+AkzfHH0wegKKSihMax89PymBXGFboREHu8WaJL9xhh2ttPgkEQ==}
+    peerDependencies:
+      stylelint: ^14.9.1
+    dependencies:
+      stylelint: 15.10.3
     dev: false
 
   /stylelint@15.10.3:

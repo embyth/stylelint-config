@@ -49,10 +49,13 @@
     "prettier": "3.0.3",
     "stylelint-config-recommended": "13.0.0",
     "stylelint-config-recommended-scss": "13.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "2.7.0",
+    "stylelint-high-performance-animation": "1.9.0",
     "stylelint-order": "6.0.3",
     "stylelint-prettier": "4.0.2",
     "stylelint-scss": "5.1.0",
-    "stylelint-selector-bem-pattern": "3.0.1"
+    "stylelint-selector-bem-pattern": "3.0.1",
+    "stylelint-selector-no-empty": "1.0.9"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
