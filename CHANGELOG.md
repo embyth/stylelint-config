@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.2.0](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.1.1...stylelint-config-v0.2.0) (2023-09-06)
+
+
+### Features
+
+* **config:** ✨ ⚙️ unified configs into single one ([cf1e8b4](https://github.com/embyth/stylelint-config/commit/cf1e8b426043fb57e93c29eb09482ee856a48d48))
+* **rules:** ✨ added `color-function-notation` as general rule ([62a520b](https://github.com/embyth/stylelint-config/commit/62a520bdb9f14ace6a8a8a0db31a034863f3c8d9))
+* **rules:** ✨ added more scss rules ([139e7fb](https://github.com/embyth/stylelint-config/commit/139e7fb862612f9506cca9517041389965876d70))
+* **rules:** ✨ added prettier rule ([2f7ca8a](https://github.com/embyth/stylelint-config/commit/2f7ca8a97ec1f8a2a0028cef5bf0c3c574c6eca5))
+* **rules:** ✨ allowed to use `[@use](https://github.com/use)` without namespace ([28e0c0e](https://github.com/embyth/stylelint-config/commit/28e0c0eb2bb06a98585d1238eb65656af71bdbf9))
+* **rules:** ✨ turned off deprecated rules ([eb63e3b](https://github.com/embyth/stylelint-config/commit/eb63e3b0f78ef025d627648b3f1385ea93a9c385))
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.26 ([892b7b2](https://github.com/embyth/stylelint-config/commit/892b7b22aa042a2d85c4b9e375d980bd39f40912))
+* **deps:** update dependency postcss to v8.4.27 ([b66b23b](https://github.com/embyth/stylelint-config/commit/b66b23bc573275cf7e5a861e5b62ed5dfbe1ff4c))
+* **deps:** update dependency postcss to v8.4.28 ([5ed92b2](https://github.com/embyth/stylelint-config/commit/5ed92b29a9c5214121b6b3e6acdc0b5b3676819a))
+* **deps:** update dependency postcss to v8.4.29 ([8e2d003](https://github.com/embyth/stylelint-config/commit/8e2d003f1b60a3878c15b2147fbf6745f8ddac89))
+* **deps:** update dependency postcss-scss to v4.0.7 ([cddb232](https://github.com/embyth/stylelint-config/commit/cddb23227d2d716da3063521f0c4aedc51e44adf))
+* **deps:** update dependency stylelint-config-recommended to v13 ([4fa6d9a](https://github.com/embyth/stylelint-config/commit/4fa6d9ab03880ac05a8caf4233f5e27c80330843))
+* **deps:** update dependency stylelint-config-recommended-scss to v13 ([44edbdb](https://github.com/embyth/stylelint-config/commit/44edbdbb26c2dc8859eb2c01d37a9ea5821338ad))
+* **deps:** update dependency stylelint-scss to v5.1.0 ([5418193](https://github.com/embyth/stylelint-config/commit/54181930ee9a5df269ca53754e9f4cfc39937168))
+* **deps:** update dependency stylelint-selector-bem-pattern to v3 ([020af0d](https://github.com/embyth/stylelint-config/commit/020af0dedc6db2287442885d5fd6cce15be36612))
+* **deps:** update dependency stylelint-selector-bem-pattern to v3.0.1 ([6741978](https://github.com/embyth/stylelint-config/commit/674197808cbb86f85a4f94ffb56e8829360a80ad))
+* **deps:** update dependency stylelint-stylistic to v0.4.3 ([4ca96ab](https://github.com/embyth/stylelint-config/commit/4ca96aba8210589da2603ee43138be4635ebeac8))
+
 ## [0.1.1](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.1.0...stylelint-config-v0.1.1) (2023-06-09)
 
 
