@@ -107,9 +107,9 @@ export const scssRules = defineRules({
   // Disallow assignment to namespaced variables.
   'scss/dollar-variable-no-namespaced-assignment': true,
   // Disallow usage of @use without a namespace.
-  'scss/at-use-no-unnamespaced': true,
-  // Disallow unknown functions. Should be used instead of Stylelint's function-no-unknown.
-  'scss/function-no-unknown': true,
+  'scss/at-use-no-unnamespaced': null,
+  // Disallow unknown functions. Disabled because @use is used without a namespace.
+  'scss/function-no-unknown': null,
   // Require or disallow extension in @import commands.
   'scss/at-import-partial-extension': 'never',
   // Disallow unknown at-rules. Should be used instead of stylelint's at-rule-no-unknown.
