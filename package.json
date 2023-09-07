@@ -60,7 +60,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
-    "@embyth/eslint-plugin": "0.1.9",
+    "@embyth/eslint-plugin": "0.2.0",
     "@embyth/prettier-config": "1.0.0",
     "@embyth/stylelint-config": "link:",
     "@types/node": "20.5.9",
