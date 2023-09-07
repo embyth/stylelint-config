@@ -1,8 +1,6 @@
 import scssSyntax from 'postcss-scss';
-
 // helpers
 import { defineConfig } from '../helpers/utilities';
-
 // rules
 import { bemRules } from '../rules/bem';
 import { deprecatedRules } from '../rules/deprecated';
@@ -36,13 +34,7 @@ export const coreConfig = defineConfig({
     {
       files: ['**/*.scss'],
       plugins: ['stylelint-scss'],
-      ignoreFiles: [
-        '**/*.js',
-        '**/*.jsx',
-        '**/*.tsx',
-        '**/*.ts',
-        '**/*.json',
-      ],
+      ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts', '**/*.json'],
       customSyntax: scssSyntax,
       rules: {
         ...scssRules,

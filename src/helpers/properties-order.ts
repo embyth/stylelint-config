@@ -2,13 +2,7 @@ export const propertiesOrder = [
   {
     // Special.
     groupName: 'Special',
-    properties: [
-      'composes',
-      '@import',
-      '@extend',
-      '@mixin',
-      '@at-root',
-    ],
+    properties: ['composes', '@import', '@extend', '@mixin', '@at-root'],
   },
   {
     // Must be first.
@@ -18,17 +12,7 @@ export const propertiesOrder = [
   {
     groupName: 'Positioning',
     // Positioning.
-    properties: [
-      'position',
-      'inset',
-      'inset-block',
-      'inset-inline',
-      'top',
-      'right',
-      'bottom',
-      'left',
-      'z-index',
-    ],
+    properties: ['position', 'inset', 'inset-block', 'inset-inline', 'top', 'right', 'bottom', 'left', 'z-index'],
   },
   {
     groupName: 'Display mode',
@@ -38,15 +22,7 @@ export const propertiesOrder = [
   {
     // Flexible boxes.
     groupName: 'Flexible boxes',
-    properties: [
-      'flex',
-      'flex-basis',
-      'flex-direction',
-      'flex-flow',
-      'flex-grow',
-      'flex-shrink',
-      'flex-wrap',
-    ],
+    properties: ['flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap'],
   },
   {
     // Grid layout.
@@ -75,11 +51,7 @@ export const propertiesOrder = [
   {
     // Gap.
     groupName: 'Gap',
-    properties: [
-      'gap',
-      'row-gap',
-      'column-gap',
-    ],
+    properties: ['gap', 'row-gap', 'column-gap'],
   },
   {
     // Layout alignment.

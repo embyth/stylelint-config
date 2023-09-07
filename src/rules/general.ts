@@ -138,14 +138,7 @@ export const generalRules = defineRules({
   'at-rule-no-unknown': [
     true,
     {
-      ignoreAtRules: [
-        'mixin',
-        'define-mixin',
-        'include',
-        'content',
-        'rules',
-        'each',
-      ],
+      ignoreAtRules: ['mixin', 'define-mixin', 'include', 'content', 'rules', 'each'],
     },
   ],
   /**

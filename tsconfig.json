@@ -11,9 +11,5 @@
     "noUnusedParameters": true,
     "jsx": "preserve"
   },
-  "exclude": [
-    "**/dist/**",
-    "**/node_modules/**",
-    "**/test/dts/**"
-  ]
+  "exclude": ["**/dist/**", "**/node_modules/**", "**/test/dts/**"]
 }
