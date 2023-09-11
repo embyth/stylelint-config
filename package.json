@@ -64,7 +64,7 @@
     "@embyth/eslint-plugin": "0.2.0",
     "@embyth/prettier-config": "1.0.0",
     "@embyth/stylelint-config": "link:",
-    "@types/node": "20.5.9",
+    "@types/node": "20.6.0",
     "devmoji": "2.3.0",
     "eslint": "8.48.0",
     "husky": "8.0.3",
