@@ -18,8 +18,8 @@ dependencies:
     specifier: 14.0.0
     version: 14.0.0(stylelint@15.11.0)
   stylelint-config-recommended-scss:
-    specifier: 13.1.0
-    version: 13.1.0(postcss@8.4.33)(stylelint@15.11.0)
+    specifier: 14.0.0
+    version: 14.0.0(postcss@8.4.33)(stylelint@15.11.0)
   stylelint-declaration-block-no-ignored-properties:
     specifier: 2.8.0
     version: 2.8.0(stylelint@15.11.0)
@@ -5017,11 +5017,12 @@ packages:
   /style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
 
-  /stylelint-config-recommended-scss@13.1.0(postcss@8.4.33)(stylelint@15.11.0):
-    resolution: {integrity: sha512-8L5nDfd+YH6AOoBGKmhH8pLWF1dpfY816JtGMePcBqqSsLU+Ysawx44fQSlMOJ2xTfI9yTGpup5JU77c17w1Ww==}
+  /stylelint-config-recommended-scss@14.0.0(postcss@8.4.33)(stylelint@15.11.0):
+    resolution: {integrity: sha512-HDvpoOAQ1RpF+sPbDOT2Q2/YrBDEJDnUymmVmZ7mMCeNiFSdhRdyGEimBkz06wsN+HaFwUh249gDR+I9JR7Onw==}
+    engines: {node: '>=18.12.0'}
     peerDependencies:
       postcss: ^8.3.3
-      stylelint: ^15.10.0
+      stylelint: ^16.0.2
     peerDependenciesMeta:
       postcss:
         optional: true
@@ -5029,17 +5030,8 @@ packages:
       postcss: 8.4.33
       postcss-scss: 4.0.9(postcss@8.4.33)
       stylelint: 15.11.0
-      stylelint-config-recommended: 13.0.0(stylelint@15.11.0)
-      stylelint-scss: 5.3.2(stylelint@15.11.0)
-    dev: false
-
-  /stylelint-config-recommended@13.0.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==}
-    engines: {node: ^14.13.1 || >=16.0.0}
-    peerDependencies:
-      stylelint: ^15.10.0
-    dependencies:
-      stylelint: 15.11.0
+      stylelint-config-recommended: 14.0.0(stylelint@15.11.0)
+      stylelint-scss: 6.1.0(stylelint@15.11.0)
     dev: false
 
   /stylelint-config-recommended@14.0.0(stylelint@15.11.0):
@@ -5088,19 +5080,6 @@ packages:
     dependencies:
       prettier: 3.2.4
       prettier-linter-helpers: 1.0.0
-      stylelint: 15.11.0
-    dev: false
-
-  /stylelint-scss@5.3.2(stylelint@15.11.0):
-    resolution: {integrity: sha512-4LzLaayFhFyneJwLo0IUa8knuIvj+zF0vBFueQs4e3tEaAMIQX8q5th8ziKkgOavr6y/y9yoBe+RXN/edwLzsQ==}
-    peerDependencies:
-      stylelint: ^14.5.1 || ^15.0.0
-    dependencies:
-      known-css-properties: 0.29.0
-      postcss-media-query-parser: 0.2.3
-      postcss-resolve-nested-selector: 0.1.1
-      postcss-selector-parser: 6.0.13
-      postcss-value-parser: 4.2.0
       stylelint: 15.11.0
     dev: false
 
