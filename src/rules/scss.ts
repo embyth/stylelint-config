@@ -75,7 +75,7 @@ export const scssRules = defineRules({
     },
   ],
   // Require or disallow //-comments to be inline comments.
-  'scss/double-slash-comment-inline': null,
+  'scss/double-slash-comment-inline': 'always',
   // Require or disallow whitespace after the // in //-comments
   'scss/double-slash-comment-whitespace-inside': 'always',
   // Require or disallow properties with - in their names to be in a form of a nested group.
