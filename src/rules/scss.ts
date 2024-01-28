@@ -37,7 +37,7 @@ export const scssRules = defineRules({
   // Require a single space or disallow whitespace after the closing brace of @if statements.
   'scss/at-if-closing-brace-space-after': 'always-intermediate',
   // Disallow leading underscore in partial names in @import.
-  'scss/at-import-no-partial-leading-underscore': true,
+  'scss/load-no-partial-leading-underscore': true,
   // Disallow unneeded `!= null` in if expressions (`@if $x != null` can be simplified to `@if $x`)
   'scss/at-if-no-null': true,
   // Specify blacklist of disallowed file extensions for partial names in @import commands.
