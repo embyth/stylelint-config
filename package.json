@@ -54,7 +54,7 @@
     "stylelint-high-performance-animation": "1.9.0",
     "stylelint-order": "6.0.4",
     "stylelint-prettier": "4.0.2",
-    "stylelint-scss": "5.2.1",
+    "stylelint-scss": "5.3.2",
     "stylelint-selector-bem-pattern": "3.0.1",
     "stylelint-selector-no-empty": "1.0.9"
   },
