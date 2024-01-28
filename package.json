@@ -1,5 +1,6 @@
 {
   "name": "@embyth/stylelint-config",
+  "type": "module",
   "version": "0.3.0",
   "publishConfig": {
     "access": "public"
@@ -42,7 +43,7 @@
     "build": "pnpm run clean:cache && unbuild"
   },
   "peerDependencies": {
-    "stylelint": "15.11.0"
+    "stylelint": "16.2.0"
   },
   "dependencies": {
     "postcss": "8.4.33",
@@ -69,7 +70,7 @@
     "eslint": "8.56.0",
     "husky": "9.0.6",
     "rimraf": "5.0.5",
-    "stylelint": "15.11.0",
+    "stylelint": "16.2.0",
     "typescript": "5.3.3",
     "unbuild": "2.0.0"
   }

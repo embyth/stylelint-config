@@ -3,7 +3,6 @@ import scssSyntax from 'postcss-scss';
 import { defineConfig } from '../helpers/utilities';
 // rules
 import { bemRules } from '../rules/bem';
-import { deprecatedRules } from '../rules/deprecated';
 import { generalRules } from '../rules/general';
 import { orderRules } from '../rules/order';
 import { prettierRules } from '../rules/prettier';
@@ -24,7 +23,6 @@ export const coreConfig = defineConfig({
   reportInvalidScopeDisables: true,
   rules: {
     ...generalRules,
-    ...deprecatedRules,
     ...bemRules,
     ...orderRules,
     ...prettierRules,
