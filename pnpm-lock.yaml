@@ -12,8 +12,8 @@ dependencies:
     specifier: 4.0.9
     version: 4.0.9(postcss@8.4.33)
   prettier:
-    specifier: 3.2.4
-    version: 3.2.4
+    specifier: 3.2.5
+    version: 3.2.5
   stylelint-config-recommended:
     specifier: 14.0.0
     version: 14.0.0(stylelint@16.2.0)
@@ -31,7 +31,7 @@ dependencies:
     version: 6.0.4(stylelint@16.2.0)
   stylelint-prettier:
     specifier: 5.0.0
-    version: 5.0.0(prettier@3.2.4)(stylelint@16.2.0)
+    version: 5.0.0(prettier@3.2.5)(stylelint@16.2.0)
   stylelint-scss:
     specifier: 6.1.0
     version: 6.1.0(stylelint@16.2.0)
@@ -54,7 +54,7 @@ devDependencies:
     version: 0.3.0(eslint@8.56.0)
   '@embyth/prettier-config':
     specifier: 1.0.1
-    version: 1.0.1(prettier@3.2.4)
+    version: 1.0.1(prettier@3.2.5)
   '@embyth/stylelint-config':
     specifier: 'link:'
     version: 'link:'
@@ -560,13 +560,13 @@ packages:
       - supports-color
     dev: true
 
-  /@embyth/prettier-config@1.0.1(prettier@3.2.4):
+  /@embyth/prettier-config@1.0.1(prettier@3.2.5):
     resolution: {integrity: sha512-Dn2QCvO4b5zwqIXiTjhjj2CXho3oH8fp2/GUZrIRUFxjlL5U+45F80EH75yqP3Tn7Bp6HRIn7q8mlu1ULyhrCg==}
     engines: {node: '>=18.15.0', pnpm: '>=8.1.0'}
     peerDependencies:
       prettier: 3.2.4
     dependencies:
-      prettier: 3.2.4
+      prettier: 3.2.5
     dev: true
 
   /@esbuild/android-arm64@0.18.20:
@@ -4367,6 +4367,12 @@ packages:
     resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
     engines: {node: '>=14'}
     hasBin: true
+    dev: true
+
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   /pretty-bytes@6.1.1:
     resolution: {integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==}
@@ -4888,14 +4894,14 @@ packages:
       stylelint: 16.2.0(typescript@5.3.3)
     dev: false
 
-  /stylelint-prettier@5.0.0(prettier@3.2.4)(stylelint@16.2.0):
+  /stylelint-prettier@5.0.0(prettier@3.2.5)(stylelint@16.2.0):
     resolution: {integrity: sha512-RHfSlRJIsaVg5Br94gZVdWlz/rBTyQzZflNE6dXvSxt/GthWMY3gEHsWZEBaVGg7GM+XrtVSp4RznFlB7i0oyw==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       prettier: '>=3.0.0'
       stylelint: '>=16.0.0'
     dependencies:
-      prettier: 3.2.4
+      prettier: 3.2.5
       prettier-linter-helpers: 1.0.0
       stylelint: 16.2.0(typescript@5.3.3)
     dev: false
