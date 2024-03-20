@@ -46,7 +46,7 @@
     "stylelint": "16.2.0"
   },
   "dependencies": {
-    "postcss": "8.4.33",
+    "postcss": "8.4.38",
     "postcss-scss": "4.0.9",
     "prettier": "3.2.4",
     "stylelint-config-recommended": "14.0.0",
