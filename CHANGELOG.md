@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.4.0](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.3.0...stylelint-config-v0.4.0) (2024-05-31)
+## [0.5.0](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.3.0...stylelint-config-v0.5.0) (2024-05-31)
 
 
 ### Features
