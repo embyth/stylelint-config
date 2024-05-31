@@ -15,8 +15,8 @@ importers:
         specifier: 4.0.9
         version: 4.0.9(postcss@8.4.38)
       prettier:
-        specifier: 3.2.4
-        version: 3.2.4
+        specifier: 3.2.5
+        version: 3.2.5
       stylelint-config-recommended:
         specifier: 14.0.0
         version: 14.0.0(stylelint@16.2.0(typescript@5.3.3))
@@ -34,7 +34,7 @@ importers:
         version: 6.0.4(stylelint@16.2.0(typescript@5.3.3))
       stylelint-prettier:
         specifier: 5.0.0
-        version: 5.0.0(prettier@3.2.4)(stylelint@16.2.0(typescript@5.3.3))
+        version: 5.0.0(prettier@3.2.5)(stylelint@16.2.0(typescript@5.3.3))
       stylelint-scss:
         specifier: 6.3.0
         version: 6.3.0(stylelint@16.2.0(typescript@5.3.3))
@@ -56,7 +56,7 @@ importers:
         version: 0.3.0(eslint@8.56.0)
       '@embyth/prettier-config':
         specifier: 1.0.1
-        version: 1.0.1(prettier@3.2.4)
+        version: 1.0.1(prettier@3.2.5)
       '@embyth/stylelint-config':
         specifier: 'link:'
         version: 'link:'
@@ -2470,6 +2470,11 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
+  prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   pretty-bytes@6.1.1:
     resolution: {integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
@@ -3386,9 +3391,9 @@ snapshots:
       - jest
       - supports-color
 
-  '@embyth/prettier-config@1.0.1(prettier@3.2.4)':
+  '@embyth/prettier-config@1.0.1(prettier@3.2.5)':
     dependencies:
-      prettier: 3.2.4
+      prettier: 3.2.5
 
   '@esbuild/android-arm64@0.18.20':
     optional: true
@@ -5663,6 +5668,8 @@ snapshots:
 
   prettier@3.2.4: {}
 
+  prettier@3.2.5: {}
+
   pretty-bytes@6.1.1: {}
 
   prop-types@15.8.1:
@@ -5983,9 +5990,9 @@ snapshots:
       postcss-sorting: 8.0.2(postcss@8.4.38)
       stylelint: 16.2.0(typescript@5.3.3)
 
-  stylelint-prettier@5.0.0(prettier@3.2.4)(stylelint@16.2.0(typescript@5.3.3)):
+  stylelint-prettier@5.0.0(prettier@3.2.5)(stylelint@16.2.0(typescript@5.3.3)):
     dependencies:
-      prettier: 3.2.4
+      prettier: 3.2.5
       prettier-linter-helpers: 1.0.0
       stylelint: 16.2.0(typescript@5.3.3)
 
