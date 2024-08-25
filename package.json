@@ -54,7 +54,7 @@
     "stylelint-declaration-block-no-ignored-properties": "2.8.0",
     "stylelint-high-performance-animation": "1.10.0",
     "stylelint-order": "6.0.4",
-    "stylelint-prettier": "5.0.0",
+    "stylelint-prettier": "5.0.2",
     "stylelint-scss": "6.3.0",
     "stylelint-selector-no-empty": "1.0.9"
   },
