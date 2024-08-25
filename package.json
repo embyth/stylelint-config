@@ -40,7 +40,8 @@
     "clean": "pnpm run clean:cache && pnpm run clean:deps",
     "lint": "pnpm exec stylelint \"test/**/*.{css,scss}\" --config .stylelintrc",
     "lint:code": "eslint . --ext .js,.jsx,.ts,.tsx,.md,.json,.jsonc,.json5,.yml,.yaml --report-unused-disable-directives --fix",
-    "build": "pnpm run clean:cache && unbuild"
+    "build": "pnpm run clean:cache && unbuild",
+    "prepare": "husky"
   },
   "peerDependencies": {
     "stylelint": "16.8.2"
