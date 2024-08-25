@@ -96,7 +96,7 @@ export const scssRules = defineRules({
   'scss/partial-no-import': true,
   // Disallow redundant nesting selectors (`&`).
   // Disabled due to this: https://sass-lang.com/documentation/breaking-changes/mixed-decls/
-  'scss/selector-no-redundant-nesting-selector': false,
+  'scss/selector-no-redundant-nesting-selector': null,
   // Disallow union class names  (e.g. `&-foo`)
   'scss/selector-no-union-class-name': true,
   // Disallow dollar variables within a stylesheet.
