@@ -52,8 +52,8 @@ importers:
         specifier: 0.4.0
         version: 0.4.0(eslint@8.57.0)
       '@embyth/prettier-config':
-        specifier: 1.1.0
-        version: 1.1.0(prettier@3.3.3)
+        specifier: 1.1.1
+        version: 1.1.1(prettier@3.3.3)
       '@embyth/stylelint-config':
         specifier: 'link:'
         version: 'link:'
@@ -284,11 +284,11 @@ packages:
     peerDependencies:
       eslint: 8.57.0
 
-  '@embyth/prettier-config@1.1.0':
-    resolution: {integrity: sha512-kytRzxqxBJNyDfs7SuunJfHsIvj7sYBBWzNxvxbBMjsaOiMcJzweapOsFIqu50ccLT/srHYIY0rRZMY5UMiQqQ==}
+  '@embyth/prettier-config@1.1.1':
+    resolution: {integrity: sha512-kYDGb8vlAI4iikUMwlOaZfuLb5J6Lg0yyrDWrYa8tolP6mWPleZLseL54nr5ZummXMagLdCviOeLOfCcT4Bsfg==}
     engines: {node: '>=18.15.0', pnpm: '>=8.1.0'}
     peerDependencies:
-      prettier: 3.2.5
+      prettier: 3.3.3
 
   '@esbuild/aix-ppc64@0.19.12':
     resolution: {integrity: sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA==}
@@ -3548,7 +3548,7 @@ snapshots:
       - jest
       - supports-color
 
-  '@embyth/prettier-config@1.1.0(prettier@3.3.3)':
+  '@embyth/prettier-config@1.1.1(prettier@3.3.3)':
     dependencies:
       prettier: 3.3.3
 
