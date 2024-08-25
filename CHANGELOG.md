@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.6.1](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.6.0...stylelint-config-v0.6.1) (2024-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.41 ([c6f552c](https://github.com/embyth/stylelint-config/commit/c6f552c77eb386035167f062e5189432146e62db))
+* **deps:** update dependency prettier to v3.3.3 ([1e682b3](https://github.com/embyth/stylelint-config/commit/1e682b30575a3c03f1cbac22bb43beb83d575a70))
+* **deps:** update dependency stylelint-config-recommended to v14.0.1 ([29e7363](https://github.com/embyth/stylelint-config/commit/29e736309d3af7316671d1971b87791913a26736))
+* **deps:** update dependency stylelint-config-recommended-scss to v14.1.0 ([d5d19c6](https://github.com/embyth/stylelint-config/commit/d5d19c68ace8ff5b4fabc6a17de22c1692518d28))
+* **deps:** update dependency stylelint-prettier to v5.0.2 ([8253986](https://github.com/embyth/stylelint-config/commit/82539862d51f8c715ea15a2eb6d2555602eab246))
+* **deps:** update dependency stylelint-scss to v6.5.1 ([46b01bc](https://github.com/embyth/stylelint-config/commit/46b01bc3fbe69cba9331993e208c65522937c586))
+
 ## [0.6.0](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.5.0...stylelint-config-v0.6.0) (2024-05-31)
 
 
