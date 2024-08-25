@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.6.1...stylelint-config-v0.7.0) (2024-08-25)
+
+
+### Features
+
+* **scss:** ✨ disable redundant nesting selector rule ([05a2fa8](https://github.com/embyth/stylelint-config/commit/05a2fa8541152d895bc4d68e9e4cea227fb88d3f))
+
 ## [0.6.1](https://github.com/embyth/stylelint-config/compare/stylelint-config-v0.6.0...stylelint-config-v0.6.1) (2024-08-25)
 
 
