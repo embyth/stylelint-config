@@ -60,8 +60,8 @@
     "stylelint-selector-no-empty": "1.0.9"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.4.0",
-    "@commitlint/config-conventional": "19.2.2",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
     "@embyth/eslint-plugin": "0.4.0",
     "@embyth/prettier-config": "1.1.1",
     "@embyth/stylelint-config": "link:",
