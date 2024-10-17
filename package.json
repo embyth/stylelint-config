@@ -56,7 +56,7 @@
     "stylelint-high-performance-animation": "1.10.0",
     "stylelint-order": "6.0.4",
     "stylelint-prettier": "5.0.2",
-    "stylelint-scss": "6.5.1",
+    "stylelint-scss": "6.8.1",
     "stylelint-selector-no-empty": "1.0.9"
   },
   "devDependencies": {
